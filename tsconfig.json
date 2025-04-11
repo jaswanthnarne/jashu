@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "target": "es5",                         // Ensures compatibility with older browsers
+    "jsx": "react-jsx",                      // For JSX support in React with TypeScript
+    "module": "esnext",                       // For modern module system
+    "moduleResolution": "node",               // Resolve modules like Node.js
+    "strict": true,                           // Enables strict mode for type safety
+    "noImplicitAny": false,                   // Prevents errors when types are inferred
+    "noUnusedParameters": false,              // Allows unused function parameters
+    "noUnusedLocals": false,                  // Allows unused local variables
+    "skipLibCheck": true,                     // Skips type-checking of declaration files
+    "allowJs": true,                          // Allows JavaScript files in the project
+    "strictNullChecks": false,                // Disables strict null checking (can be set to true based on needs)
+    "esModuleInterop": true,                  // Ensures compatibility with CommonJS modules
+    "forceConsistentCasingInFileNames": true  // Ensures consistent file naming across the project
+  },
+  "include": ["src/**/*"],                    // Includes all TypeScript files in the src directory
+  "exclude": ["node_modules", "build", "dist"] // Exclude unnecessary folders
+}
