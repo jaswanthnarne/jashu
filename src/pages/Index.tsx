@@ -7,7 +7,7 @@ import SkillsSection from '@/components/SkillsSection';
 import CertificationsSection from '@/components/CertificationsSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ContactSection from '@/components/ContactSection';
-import ChatbotButton from '@/components/ChatbotButton';
+// import ChatbotButton from '@/components/ChatbotButton';
 import Footer from '@/components/Footer';
 import { toast } from 'sonner';
 
